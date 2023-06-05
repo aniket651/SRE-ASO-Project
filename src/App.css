@@ -1,0 +1,29 @@
+*{
+  box-sizing: border-box;
+}
+.App{
+  min-height: 100vh;
+  overflow: hidden;
+  position:relative;
+  display: grid;
+  /* justify-content: center; */
+  align-items:start;
+}
+.slantdiv{
+  background-color:#0249FF;
+  height: 2696px;
+  width: 1324px;
+  position: absolute;
+  top: 20%;
+  right: 40%;
+  transform-origin: top right;
+  transform: rotate(30deg);
+}
+
+.footer{
+  padding: 1em;
+  position: relative;
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: 700;
+}

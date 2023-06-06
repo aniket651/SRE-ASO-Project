@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import LoginBox from './components/LoginBox';
 import Header from './components/Header';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -9,9 +10,7 @@ function App() {
       <div className='slantdiv'></div>
       <Header />
       <LoginBox />
-      <div className='footer'>
-        Copyright @ 2021 by Academy Sports & Outdoors 
-      </div>
+      <Footer />
     </div>
   );
 }
